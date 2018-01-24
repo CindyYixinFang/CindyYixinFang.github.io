@@ -26,7 +26,7 @@ header {
     position: relative;
     top: 140px;
     left: 180px;
-    color: #C4F5E1;
+    color: white;
     font-size: 400%;
     font-family: 'Reenie Beanie', cursive;
 
@@ -71,11 +71,10 @@ header {
 .intro {
     position: relative;
     text-align: center;
-    font-size: 250%;
+    font-size: 230%;
     color: white;
     top: 160px;
-    font-family: 'Reenie Beanie', cursive;
-
+    font-family: 'Just Me Again Down Here', cursive;
 }
 
 .nav {
