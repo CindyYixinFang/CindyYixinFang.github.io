@@ -31,7 +31,7 @@ header {
     font-family: 'Reenie Beanie', cursive;
 
     animation-name: fadeInLeft;
-    animation-duration: 3s;
+    animation-duration: 1s;
 }
 
 @keyframes fadeInLeft {
@@ -75,12 +75,17 @@ header {
     color: white;
     top: 160px;
     font-family: 'Just Me Again Down Here', cursive;
+    animation-name: fadeIn;
+    animation-duration: 5.5s;
 }
 
 .nav {
     text-align: center;
     position: relative;
     top: 280px;
+    animation-name: fadeIn;
+    animation-duration: 6s;
+
 }
 
 .button {
@@ -98,6 +103,15 @@ header {
     margin: 4px 15px;
     /*     margin: second one is horizontal spacing*/
     cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* A B O U T */
