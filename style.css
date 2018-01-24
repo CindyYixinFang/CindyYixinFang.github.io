@@ -83,8 +83,7 @@ header {
     text-align: center;
     position: relative;
     top: 280px;
-    animation-name: fadeIn;
-    animation-duration: 6s;
+
 }
 
 
@@ -106,11 +105,17 @@ header {
 
     transition-property: all;
     transition-duration: 0.3s;
+
+
+    opacity: 0;
+    animation-name: scaleIn;
+    animation-duration: 3s;
+    animation-delay: 3s;
 }
 
 .button:hover {
     transform: scale(1.03);
-    box-shadow: 0px 7px #333333;
+    box-shadow: 0px 11px 15px #333333;
 }
 
 @keyframes fadeIn {
@@ -129,3 +134,22 @@ header {
     width: 800px;
     background:
 }
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1.0);
+        opacity: 1;
+    }
+}
+
+
+/*https://cliquemeet.com/*/
+
+/* inspo for the bottom bar the icons bounce*/
+
+7
+/*https://numie.co/
+has a cool little side contact thing, maybe change contact?*/
