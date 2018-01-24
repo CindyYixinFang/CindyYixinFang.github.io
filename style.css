@@ -32,7 +32,7 @@ header {
     animation-duration: 3s;
 }
 
-/*@keyframes fadeInLeft {
+@keyframes fadeInLeft {
     from {
         opacity: 0;
         left: 80px;
@@ -41,16 +41,16 @@ header {
         opacity: 1;
         left: 180px;
     }
-} */
+}
 
 .my_name {
     position: relative;
     color: #C4F5E1;
     text-align: center;
-    font-size: 1400%;
+    font-size: 1000%;
     animation-name: fadeInTop;
     animation-duration: 2.5s;
-    top: 140px;
+    top: 160px;
     /*    if you don't put top again, i dont know why snaps up to 50px ish */
 }
 
@@ -61,7 +61,7 @@ header {
     }
     to {
         opacity: 1;
-        top: 140px;
+        top: 160px;
     }
 }
 
@@ -70,14 +70,14 @@ header {
     text-align: center;
     font-size: 160%;
     color: white;
-    top: 160px;
+    top: 190px;
 
 }
 
 .nav {
     text-align: center;
     position: relative;
-    top: 260px;
+    top: 280px;
 }
 
 .button {
