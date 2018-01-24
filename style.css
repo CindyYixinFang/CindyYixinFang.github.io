@@ -87,7 +87,7 @@ header {
 .button {
     color: black;
     position: relative;
-    background: linear-gradient(to bottom right, #c4f5e1, darkturquoise);
+    background: linear-gradient(to bottom right, aquamarine, darkturquoise);
     border: none;
     border-radius: 40px;
     padding: 10px 60px;
