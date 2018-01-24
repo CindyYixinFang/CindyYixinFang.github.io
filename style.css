@@ -27,7 +27,9 @@ header {
     top: 140px;
     left: 180px;
     color: #C4F5E1;
-    font-size: 300%;
+    font-size: 400%;
+    font-family: 'Reenie Beanie', cursive;
+
     animation-name: fadeInLeft;
     animation-duration: 3s;
 }
@@ -45,8 +47,9 @@ header {
 
 .my_name {
     position: relative;
-    color: #C4F5E1;
+    color: mediumturquoise;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     font-size: 1000%;
     animation-name: fadeInTop;
     animation-duration: 2.5s;
@@ -68,9 +71,10 @@ header {
 .intro {
     position: relative;
     text-align: center;
-    font-size: 160%;
+    font-size: 250%;
     color: white;
-    top: 190px;
+    top: 160px;
+    font-family: 'Reenie Beanie', cursive;
 
 }
 
@@ -81,16 +85,17 @@ header {
 }
 
 .button {
+    color: black;
     position: relative;
-    background: linear-gradient(to bottom right, teal, green);
+    background: linear-gradient(to bottom right, #c4f5e1, darkturquoise);
     border: none;
-    border-radius: 30px;
-    color: white;
-    padding: 10px 40px;
+    border-radius: 40px;
+    padding: 10px 60px;
     text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
     text-decoration: none;
     display: inline-block;
-    font-size: 200%;
+    font-size: 140%;
     margin: 4px 15px;
     /*     margin: second one is horizontal spacing*/
     cursor: pointer;
