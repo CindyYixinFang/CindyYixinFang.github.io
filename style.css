@@ -4,7 +4,30 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     padding: 0;
+    height: 300px;
 }
+
+.greet {
+    position: relative;
+    top: 140px;
+    left: 180px;
+    color: #C4F5E1;
+
+    font-size: 300%;
+}
+
+.my_name {
+    position: relative;
+    top: 140px;
+    color: #C4F5E1;
+    text-align: center;
+    font-size: 1400%;
+
+}
+
+
+
+
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(backtemp.jpg);
@@ -14,9 +37,9 @@ header {
 }
 
 .main-nav {
-    float: right;
+    text-align: center;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 300px;
 }
 
 .main-nav li {
@@ -37,4 +60,12 @@ header {
 
 .main-nav li a:hover {
     /*    same thing as above*/
+}
+
+/* A B O U T */
+
+.grad1 {
+    height: 300px;
+    width: 800px;
+    background: linear-gradient(to bottom right, teal, green);
 }
