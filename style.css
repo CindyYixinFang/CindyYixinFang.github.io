@@ -1,41 +1,78 @@
 body {
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: 0px;
+    margin-left: px;
     margin-right: 0px;
+    margin: 0;
     padding: 0;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
 }
+
+header {
+    margin: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(backtemp.jpg);
+    /*    first 0.5 is transparency at top, then bottom
+    e.g. fade top to bottom out : 0.5 then 1*/
+    height: 100vh;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+}
+
 
 .greet {
     position: relative;
     top: 140px;
     left: 180px;
     color: #C4F5E1;
-
     font-size: 300%;
+    animation-name: fadeInLeft;
+    animation-duration: 3s;
 }
+
+/*@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        left: 80px;
+    }
+    to {
+        opacity: 1;
+        left: 180px;
+    }
+} */
 
 .my_name {
     position: relative;
-    top: 140px;
     color: #C4F5E1;
     text-align: center;
     font-size: 1400%;
-
+    animation-name: fadeInTop;
+    animation-duration: 2.5s;
+    top: 140px;
+    /*    if you don't put top again, i dont know why snaps up to 50px ish */
 }
 
-
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(backtemp.jpg);
-    /*    first 0.5 is transparency at top, then bottom
-    e.g. fade top to bottom out : 0.5 then 1*/
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+@keyframes fadeInTop {
+    from {
+        opacity: 0;
+        top: 80px;
+    }
+    to {
+        opacity: 1;
+        top: 140px;
+    }
 }
 
+.intro {
+    position: relative;
+    text-align: center;
+    font-size: 160%;
+    color: white;
+    top: 160px;
+
+}
 
 .nav {
     text-align: center;
@@ -45,7 +82,7 @@ header {
 
 .button {
     position: relative;
-    background-color: #348072;
+    background: linear-gradient(to bottom right, teal, green);
     border: none;
     border-radius: 30px;
     color: white;
@@ -64,5 +101,5 @@ header {
 .grad1 {
     height: 300px;
     width: 800px;
-    background: linear-gradient(to bottom right, teal, green);
+    background:
 }
