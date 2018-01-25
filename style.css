@@ -149,6 +149,30 @@ a.button {
     }
 }
 
+#navbar {
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+/* links on the nav bar */
+
+#navbar a {
+    float: left;
+    display: inline-block;
+    color: aqua;
+    text-align: center;
+    padding: 30 px;
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.content2 {}
+
 
 /*https://cliquemeet.com/*/
 
