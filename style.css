@@ -38,11 +38,11 @@ header {
 @keyframes fadeInLeft {
     from {
         opacity: 0;
-        left: 80px;
+        text-indent: 80px;
     }
     to {
         opacity: 1;
-        left: 180px;
+        text-indent: 180px;
     }
 }
 
@@ -54,8 +54,8 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 1000%;
     animation-name: fadeInTop;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
     top: 160px;
     /*    if you don't put top again, i dont know why snaps up to 50px ish */
 }
@@ -63,7 +63,7 @@ header {
 @keyframes fadeInTop {
     from {
         opacity: 0;
-        top: 80px;
+        top: 120px;
     }
     to {
         opacity: 1;
@@ -80,7 +80,7 @@ header {
     top: 160px;
     font-family: 'Just Me Again Down Here', cursive;
     animation-name: fadeIn;
-    animation-duration: 5.5s;
+    animation-duration: 3s;
 }
 
 .nav {
@@ -113,7 +113,7 @@ a.button {
     transition-duration: 0.3s;
 
     animation-name: scaleIn;
-    animation-duration: 2s;
+    animation-duration: 1.2s;
     animation-timing-function: ease-in;
 }
 
