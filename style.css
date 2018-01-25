@@ -13,7 +13,7 @@ body {
 header {
     width: 100%;
     margin: 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(backtemp.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(backtemp.jpg);
     /*    first 0.5 is transparency at top, then bottom
     e.g. fade top to bottom out : 0.5 then 1*/
     height: 100vh;
@@ -149,9 +149,15 @@ a.button {
     }
 }
 
+#navbar-wrap {
+    height: 30px;
+}
+
 #navbar {
     overflow: hidden;
-    background-color: antiquewhite;
+    background-color: black;
+    height: 30px;
+    /*    height should be the same as the spacer above*/
 }
 
 /* links on the nav bar */
@@ -169,6 +175,11 @@ a.button {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.pad {
+    padding-top: 30px;
+    margin-top: -30px;
 }
 
 .content2 {}
