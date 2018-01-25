@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    width: 100%;
     margin: 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(backtemp.jpg);
     /*    first 0.5 is transparency at top, then bottom
@@ -25,11 +26,11 @@ header {
 .greet {
     position: relative;
     top: 140px;
-    left: 180px;
+    text-indent: 180px;
     color: white;
     font-size: 400%;
     font-family: 'Reenie Beanie', cursive;
-
+    width: 100%;
     animation-name: fadeInLeft;
     animation-duration: 1s;
 }
@@ -46,6 +47,7 @@ header {
 }
 
 .my_name {
+    width: 100%;
     position: relative;
     color: mediumturquoise;
     text-align: center;
@@ -70,6 +72,7 @@ header {
 }
 
 .intro {
+    width: 100%;
     position: relative;
     text-align: center;
     font-size: 250%;
@@ -81,6 +84,7 @@ header {
 }
 
 .nav {
+    width: 100%;
     text-align: center;
     position: relative;
     top: 280px;
@@ -88,7 +92,8 @@ header {
 }
 
 
-.button {
+a.button {
+
     color: black;
     position: relative;
     background: linear-gradient(to bottom right, aquamarine, darkturquoise);
@@ -152,3 +157,5 @@ header {
 7
 /*https://numie.co/
 has a cool little side contact thing, maybe change contact?*/
+
+/* ---- PAGE 2 ---- */
