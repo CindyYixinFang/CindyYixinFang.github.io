@@ -52,7 +52,8 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 1000%;
     animation-name: fadeInTop;
-    animation-duration: 2.5s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
     top: 160px;
     /*    if you don't put top again, i dont know why snaps up to 50px ish */
 }
@@ -106,11 +107,9 @@ header {
     transition-property: all;
     transition-duration: 0.3s;
 
-
-    opacity: 0;
     animation-name: scaleIn;
-    animation-duration: 3s;
-    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
 }
 
 .button:hover {
