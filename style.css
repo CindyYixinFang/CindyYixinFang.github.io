@@ -53,7 +53,7 @@ header {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1000%;
-    animation-name: fadeInTop;
+    padding: 30 animation-name: fadeInTop;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     top: 160px;
@@ -169,7 +169,7 @@ a.button {
     text-align: center;
     text-decoration: none;
     font-size: 30px;
-    padding: 10px 30px;
+    padding: 35px 30px;
     font-family: 'Roboto', sans-serif;
 }
 
