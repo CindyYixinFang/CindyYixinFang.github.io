@@ -150,13 +150,13 @@ a.button {
 }
 
 #navbar-wrap {
-    height: 30px;
+    height: 100px;
 }
 
 #navbar {
     overflow: hidden;
     background-color: black;
-    height: 30px;
+    height: 100px;
     /*    height should be the same as the spacer above*/
 }
 
@@ -167,8 +167,10 @@ a.button {
     display: inline-block;
     color: aqua;
     text-align: center;
-    padding: 30 px;
     text-decoration: none;
+    font-size: 30px;
+    padding: 10px 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .sticky {
@@ -178,8 +180,9 @@ a.button {
 }
 
 .pad {
-    padding-top: 30px;
-    margin-top: -30px;
+    padding-top: 100px;
+    margin-top: -100px;
+    /*    should be the same as the spacer above*/
 }
 
 .content2 {}
