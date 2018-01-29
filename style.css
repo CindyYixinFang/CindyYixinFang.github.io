@@ -23,7 +23,7 @@ header {
 }
 
 
-.greet {
+#greet {
     position: relative;
     top: 140px;
     text-indent: 180px;
@@ -46,7 +46,7 @@ header {
     }
 }
 
-.my_name {
+#my_name {
     width: 100%;
     position: relative;
     color: mediumturquoise;
@@ -71,7 +71,7 @@ header {
     }
 }
 
-.intro {
+#intro {
     width: 100%;
     position: relative;
     text-align: center;
@@ -185,7 +185,38 @@ a.button {
     /*    should be the same as the spacer above*/
 }
 
-.content2 {}
+/*-----------------------------------------------------*/
+
+.content2 {
+    background-color: black;
+    background: linear-gradient(to bottom right, aquamarine, darkturquoise);
+}
+
+.subtitle {
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 17%;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 2%;
+}
+
+.text {
+    text-indent: 5%;
+
+    color: white;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 17%;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
 
 
 /*https://cliquemeet.com/*/
@@ -196,4 +227,4 @@ a.button {
 /*https://numie.co/
 has a cool little side contact thing, maybe change contact?*/
 
-/* ---- PAGE 2 ---- */
++ a {}
