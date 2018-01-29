@@ -179,11 +179,6 @@ a.button {
     width: 100%;
 }
 
-.pad {
-    padding-top: 100px;
-    margin-top: -100px;
-    /*    should be the same as the spacer above*/
-}
 
 /*-----------------------------------------------------*/
 
@@ -202,7 +197,7 @@ a.button {
 }
 
 .text {
-    text-indent: 5%;
+
     color: white;
     font-size: 30px;
     font-family: 'Lato', sans-serif;
@@ -235,5 +230,10 @@ has a cool little side contact thing, maybe change contact?*/
 + a {}
 
 .divider {
-    background-color:black;
+    background-color: black;
+}
+
+.content3 {
+    background-color: black;
+    background: linear-gradient(to bottom left, rgba(0, 206, 209, 1), rgba(127, 355, 212, 1));
 }
