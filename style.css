@@ -233,3 +233,7 @@ a:hover {
 has a cool little side contact thing, maybe change contact?*/
 
 + a {}
+
+.divider {
+    background-color:black;
+}
