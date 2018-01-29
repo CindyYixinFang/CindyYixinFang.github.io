@@ -53,7 +53,8 @@ header {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1000%;
-    padding: 30 animation-name: fadeInTop;
+    padding: 30;
+    animation-name: fadeInTop;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     top: 160px;
@@ -157,6 +158,7 @@ a.button {
     overflow: hidden;
     background-color: black;
     height: 100px;
+    text-align: center;
     /*    height should be the same as the spacer above*/
 }
 
@@ -217,17 +219,12 @@ a:hover {
     text-decoration: underline;
 }
 
-
-
 /*https://cliquemeet.com/*/
 
 /* inspo for the bottom bar the icons bounce*/
 
-7
 /*https://numie.co/
 has a cool little side contact thing, maybe change contact?*/
-
-+ a {}
 
 .divider {
     background-color: black;
