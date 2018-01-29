@@ -189,13 +189,13 @@ a.button {
 
 .content2 {
     background-color: black;
-    background: linear-gradient(to bottom right, rgba(127, 355, 212, 0.5), rgba(0, 206, 209, 0.5));
+    background: linear-gradient(to bottom right, rgba(127, 355, 212, 1), rgba(0, 206, 209, 1));
 }
 
 .subtitle {
     font-size: 50px;
     text-align: center;
-    color: black;
+    color: white;
     padding-top: 17%;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 2%;
@@ -203,7 +203,7 @@ a.button {
 
 .text {
     text-indent: 5%;
-    color: black;
+    color: white;
     font-size: 30px;
     font-family: 'Lato', sans-serif;
     padding-bottom: 17%;
@@ -214,10 +214,13 @@ a.button {
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
 
 
 
